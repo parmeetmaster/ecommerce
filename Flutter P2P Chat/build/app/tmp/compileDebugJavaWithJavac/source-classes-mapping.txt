@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/aphalia/flutter_app_room_chat/BuildConfig.java
+ com.aphalia.flutter_app_room_chat.BuildConfig

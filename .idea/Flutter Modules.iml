@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/CodeCanyon Static Layout App/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/CodeCanyon Static Layout App/build" />
+      <excludeFolder url="file://$MODULE_DIR$/FCM Push Notifications/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/FCM Push Notifications/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Google Maps and Gps/Set marker manually on click/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Google Maps and Gps/Set marker manually on click/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Google Maps and Gps/Static marker - center screen/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Google Maps and Gps/Static marker - center screen/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Infinite List Pull to Refresh/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Infinite List Pull to Refresh/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Mobile Phone OTP Login/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Mobile Phone OTP Login/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Mobile Phone Otp Login 2/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Mobile Phone Otp Login 2/build" />
+      <excludeFolder url="file://$MODULE_DIR$/Social Login using Firebase/.pub" />
+      <excludeFolder url="file://$MODULE_DIR$/Social Login using Firebase/build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
