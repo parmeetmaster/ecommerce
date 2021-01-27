@@ -1,0 +1,4 @@
+#Wed Jan 27 15:52:20 IST 2021
+base.0=C\:\\Users\\yash\\AndroidStudioProjects\\flutter_app_room_chat\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
