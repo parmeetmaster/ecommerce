@@ -18,3 +18,9 @@ Step 2: Add App Id in Message Body, and Also Add 6 Digit Otp in message body.
 
 #### Screen Shot 2
 ![](https://raw.githubusercontent.com/parmeets834/Zomato_SignIn_Page_Flutter/master/raw/Screenshot_20210120-205800.jpg)
+
+Links and reference of this project 
+
+==> DigiDonor Application
+==> https://pub.dev/packages/sms_autofill
+==> Read how to make blocks using box decoration from description of plugin main pub page.
