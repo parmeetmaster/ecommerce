@@ -1,16 +1,15 @@
-# model_architecture
+# Model Architcture Flutter Developers
 
-A new Flutter application.
+**Api Folder** : In Api folder we store Api Classes as per Screen and each class contains Future Methods that are not executed.Its executed in providers classes.
 
-## Getting Started
+**Components**: Components is contains widgets that will use in multiple screens.
 
-This project is a starting point for a Flutter application.
+**Models**: Models contains different models related to project to store data and transfer data between classes.
 
-A few resources to get you started if this is your first Flutter project:
+**Providers**: Provider are act like controller every opertion like validation calling api from Api classes using utlities etc.Moreover every variable is declared and assign and release value from providers only. Providers are only responsible for Screen rebuild.Main objective is to avoid setState calling.
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+**Screens**: Screens are contains UI for different screens and components related to  that screen only.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+**Utils**: Utils contains common classes and funcitonalities are that used in every single app.
+
+

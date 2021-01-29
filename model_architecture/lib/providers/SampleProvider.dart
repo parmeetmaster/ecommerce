@@ -4,6 +4,8 @@ import 'package:model_architecture/api/SampleCall.dart';
 import 'package:model_architecture/api/api_service.dart';
 
 class SampleProvider extends ChangeNotifier{
+  String responseData="Sample data";
+
   Dio dio=ApiService(baseOptions:  BaseOptions(
     baseUrl: "https://jsonplaceholder.typicode.com",
     connectTimeout: 10000,
@@ -11,12 +13,12 @@ class SampleProvider extends ChangeNotifier{
 
 
   void sentOtp() async {
-  try {
-    Response resp = await SampleApi().sentOtp("9899");
-     print(resp.data);
-    }on DioError catch(e){
-    }
 
+    Response resp = await SampleApi().requestSamplePost("9899");
+
+    responseData=resp.data[0]["title"];
+
+     notifyListeners();
   }
 
 
