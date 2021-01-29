@@ -3,7 +3,7 @@ import 'languageDeligate.dart';
 class Globals{
   static var primaryLanguage=getPrimaryLanguage();
   static const apikey = "";
-  static String baseurl = "https://googlelogin-be.herokuapp.com";
+  static String baseurl = "1234";
   static String imageUrl = "";
   // preference keys constants
    static String SESSION_ID = "session_id";
