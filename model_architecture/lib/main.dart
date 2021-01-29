@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:model_architecture/constantPackage/language/languageEn.dart';
 import 'package:model_architecture/providers/SampleProvider.dart';
+import 'package:model_architecture/screens/otpValidation/OtpValidation.dart';
 import 'package:model_architecture/utils/Globals.dart';
 import 'package:model_architecture/utils/languageDeligate.dart';
 import 'package:provider/provider.dart';
@@ -12,27 +13,17 @@ void main() async {
 
   await Preference.load();
   WidgetsFlutterBinding.ensureInitialized();
-  Globals.primaryLanguage=await getPrimaryLanguage();
+
   if(isPrimaryLanguageset()==false){
 
    }else{
 
     }
 
-
-/*  if (kReleaseMode) {
-    Global.baseurl = "release";
-  } else if (kProfileMode) {
-    Global.baseurl = "profile";
-  } else {
-    Global.baseurl = "https://digidonor.herokuapp.com/api/v1";
-  }*/
-
   runApp(
     MultiProvider(
       providers: [
         ChangeNotifierProvider(create: (ctx) => SampleProvider()),
-
       ],
       child: MyApp(),
     ),
@@ -45,6 +36,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
+      initialRoute: '/',
+      routes: {
+        // When navigating to the "/" route, build the FirstScreen widget.
+        '/': (context) => MyApp(),
+        // When navigating to the "/second" route, build the SecondScreen widget.
+        '/second': (context) => OtpValidation(),
+      },
       theme: ThemeData(
         // This is the theme of your application.
         //
