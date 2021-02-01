@@ -8,7 +8,8 @@ enum languageEnum {english,hindi} //todo add supported languages here
 const languageCacheKey="language";
 
 // todo set primary language using lanuage selection screen
-setPrimaryLanguage(var languageString){
+setPrimaryLanguage(var languageString) async{
+ await Preference.load();
   switch(languageString){
     case languageEnum.english: Preference.setString(languageCacheKey, languageEnum.english.toString());
     break;
@@ -19,6 +20,7 @@ setPrimaryLanguage(var languageString){
 }
 
 getPrimaryLanguage() async{
+ await Preference.load();
    String cacheLanguage=Preference.getString(languageCacheKey);
    if(cacheLanguage==languageEnum.english.toString()){
      return LanguageEn();
@@ -31,7 +33,8 @@ getPrimaryLanguage() async{
 
 }
 
-bool isPrimaryLanguageset(){
+ isPrimaryLanguageset() async{
+ await Preference.load();
   if(Preference.getString(languageCacheKey)==null){
     return false;
   }else{

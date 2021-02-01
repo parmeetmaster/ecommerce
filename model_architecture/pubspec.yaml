@@ -30,14 +30,14 @@ dependencies:
   change_app_package_name: ^0.1.2
  # flutter pub run change_app_package_name:main com.new.package.name
 
-  cupertino_icons: ^1.0.2
+  cupertino_icons:
   #update as per need
-  shared_preferences: ^0.5.12+4
-  google_fonts: ^1.1.1
-  dio: ^3.0.10
-  provider: ^4.3.3
-  logger: ^0.9.4
-  auto_route: ^0.6.9
+  shared_preferences:
+  google_fonts:
+  dio:
+  provider:
+  logger:
+  auto_route:
 dev_dependencies:
   flutter_test:
     sdk: flutter
