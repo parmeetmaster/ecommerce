@@ -24,6 +24,14 @@ example: inside button **()Tap: provider.performAction**,
 
 **Utils**: Utils contains common classes and funcitonalities are that used in every single app.like
 
+**Constants Package**: Constants package divided in two terms 
+**Languages package** and **constStrings**
+
+###### **Language Package** is used to store const string that used for different langauge switch
+
+###### ConstString package is used to store const for backend purpose like Sharepreferenes need to key to get data.
+
+
 **languageDeligate**=> Language Deligate is contain global function to **get** and **set** language that reflect whole app language.
 
 **Shareprefrences**=> SharePreferences is used to store permanent data inside app. 
