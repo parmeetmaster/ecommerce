@@ -37,6 +37,7 @@ dependencies:
   dio:
   provider:
   logger:
+  flutter_swiper:
   auto_route:
 dev_dependencies:
   flutter_test:

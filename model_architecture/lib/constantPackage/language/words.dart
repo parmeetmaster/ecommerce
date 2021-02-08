@@ -11,5 +11,6 @@ abstract class Words {
 
   String get labelSelectLanguage;
 
+  String get recommandForYou;
 
 }

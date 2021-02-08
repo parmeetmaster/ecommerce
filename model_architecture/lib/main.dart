@@ -4,13 +4,14 @@ import 'package:flutter/material.dart';
 import 'package:model_architecture/api/SampleCall.dart';
 import 'package:model_architecture/constantPackage/language/languageEn.dart';
 import 'package:model_architecture/providers/SampleProvider.dart';
-import 'package:model_architecture/screens/SampleScreen/SampleScreen.dart';
+
 import 'package:model_architecture/screens/otpValidation/OtpValidation.dart';
 import 'package:model_architecture/utils/Globals.dart';
 import 'file:///D:/git%20main/flutter-modules/model_architecture/lib/api/api_service.dart';
 import 'package:model_architecture/utils/languageDeligate.dart';
 import 'package:provider/provider.dart';
 
+import 'screens/HomeScreen/HomeScreen.dart';
 import 'utils/preference.dart';
 
 // need to add async
@@ -18,12 +19,10 @@ void main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await Preference.load();
 
-
   if(isPrimaryLanguageset()==false){
-
    }else{
-
     }
+Globals.primaryLanguage=await getPrimaryLanguage();
   runApp(
     MultiProvider(
       providers: [
@@ -43,7 +42,7 @@ class MyApp extends StatelessWidget {
       initialRoute: '/',
       routes: {
         // When navigating to the "/" route, build the FirstScreen widget.
-        '/': (context) => SampleScreen(),
+        '/': (context) => HomeScreen(),
         // When navigating to the "/second" route, build the SecondScreen widget.
         '/second': (context) => OtpValidation(),
       },

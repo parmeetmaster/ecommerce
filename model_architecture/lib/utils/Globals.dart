@@ -1,7 +1,9 @@
+import 'package:model_architecture/constantPackage/language/words.dart';
+
 import 'languageDeligate.dart';
 
 class Globals{
-  static var primaryLanguage=getPrimaryLanguage();
+  static Words primaryLanguage;
   static const apikey = "";
   static String baseurl = "1234";
   static String imageUrl = "";
@@ -12,7 +14,6 @@ class Globals{
 
 
   static String VOUCHER_PREFIX = "dd_voucher_";
-
 
 }
 

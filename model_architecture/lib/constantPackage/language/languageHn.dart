@@ -24,6 +24,10 @@ class LanguageHn extends Words{
   // TODO: implement labelWelcome
   String get labelWelcome => throw UnimplementedError();
 
+  @override
+  // TODO: implement recommandForYou
+  String get recommandForYou => throw UnimplementedError();
+
 
 
 
